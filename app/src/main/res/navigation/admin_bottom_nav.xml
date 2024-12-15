@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_bottom_nav"
+    app:startDestination="@id/adminHomeFragment">
+
+    <fragment
+        android:id="@+id/adminHomeFragment"
+        android:name="com.example.uaspppb.AdminHomeFragment"
+        android:label="fragment_admin_home"
+        tools:layout="@layout/fragment_admin_home" />
+    <fragment
+        android:id="@+id/adminKelolaAcaraFragment"
+        android:name="com.example.uaspppb.AdminKelolaAcaraFragment"
+        android:label="fragment_admin_kelola_acara"
+        tools:layout="@layout/fragment_admin_kelola_acara" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.uaspppb.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
